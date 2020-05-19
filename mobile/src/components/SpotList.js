@@ -47,8 +47,7 @@ function SpotList({ tech, navigation }) {
             <Image
               style={styles.thumbnail}
               source={{
-                uri:
-                  "https://cdn.pixabay.com/photo/2016/02/19/11/19/office-1209640_960_720.jpg",
+                uri: item.thumbnail_url,
               }}
             />
             <Text style={styles.company}>{item.company}</Text>
